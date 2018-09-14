@@ -1,0 +1,23 @@
+INSERT INTO `tipo_vivienda` (`id_tipo`, `tipo`) VALUES
+(1, 'Casa con Patio Grande'),
+(2, 'Casa con Patio Pequeño'),
+(3, 'Casa Sin Patio'),
+(4, 'Departamento');
+
+INSERT INTO `region` (`idregion`, `nom_region`) VALUES
+(1, 'Región Metropolitana'),
+(2, 'Valparaíso');
+
+
+INSERT INTO `ciudad` (`idciudad`, `nombre`, `region_idregion`) VALUES
+(1, 'Puente Alto', 1),
+(2, 'La Florida', 1),
+(3, 'Maipu', 1),
+(4, 'Las Condes', 1),
+(5, 'Macul', 1),
+(6, 'ViÃ±a del Mar', 2),
+(7, 'Quillota', 2),
+(8, 'San Antonio', 2),
+(9, 'Cartajena', 2),
+(10, 'La Calera', 2),
+(100, 'Dubai', 1);
